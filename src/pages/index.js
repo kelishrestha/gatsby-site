@@ -2,11 +2,13 @@ import React from 'react';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
+import IframeSection from '../components/IframeSection';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
+import videoData from '../data/video-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
@@ -30,6 +32,11 @@ export default () => (
         <div className="lg:w-1/2">
           <HeroImage />
         </div>
+      </div>
+    </section>
+    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+      <div className="container mx-auto text-center">
+        <IframeSection videoData={videoData}></IframeSection>
       </div>
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
