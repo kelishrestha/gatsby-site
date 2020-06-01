@@ -1,1 +1,0 @@
-export default "<div style='position:relative;'><iframe width='100%' height='80%' src='https://live.kudoway.com/k8/770118061892/live' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen style='min-height:750px'></iframe></div>";
